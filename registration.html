@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact page</title>
+    <link rel="shortcut icon" type="image/x-icon" href="danielicoon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="registration.html">Contact</a>
+        </div>
+    </nav>
+<main>
+    <div class="registration">
+        <div class="judulkontak">
+            <h1>REGISTRATION</h1>
+        </div>
+        <div class="form">
+            <form action="/process.php">
+                <div class="typename">
+                    <label for="fname">First name :</label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                </div>
+
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email"><br>
+
+                <label for="username--">Username</label><br>
+                <input type="text" id="username--" name="username--"><br>
+
+                <label for="password">Password</label><br>
+                <input type="password" id="password" name="password"><br><br>
+
+                <p>Choose your gender :</p>
+                <input type="radio" id="male" name="gender " value="Male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female">Female</label><br><br>
+
+                <label for="religion">Religion :</label><br>
+                <select id="religion" name="religion">
+                    <option value="Christian">Christian</option>
+                    <option value="Moslem">Moslem</option>
+                    <option value="Buddhist">Buddhist</option>
+                    <option value="Hindu">Hindu</option>
+                </select><br><br>
+
+                <p>Address</p>
+                <textarea name="address" rows="2" cols="30">
+                </textarea><br><br>
+
+                <p>Hobbies</p>
+                <input type="checkbox" id="singing" name="hobby1" value="Singing">
+                <label for="singing">Singing</label><br>
+                <input type="checkbox" id="drawing" name="hobby2" value="Drawing">
+                <label for="drawing">Drawing</label><br>
+                <input type="checkbox" id="cooking" name="hobby3" value="Cooking">
+                <label for="cooking">Cooking</label><br>
+                <input type="checkbox" id="gaming" name="hobby4" value="Gaming">
+                <label for="gaming">Gaming</label><br>
+                <input type="checkbox" id="playing_basketball" name="hobby5" value="Playing Basketball">
+                <label for="playing_basketball">Basketball</label><br><br>
+
+                <input type="submit">
+                <input type="reset">
+            </form>
+        </div>
+    </div>
+</main>
+</body>
+</html>
